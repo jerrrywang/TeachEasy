@@ -27,6 +27,11 @@ class App extends Component {
                 <p>
                     {this.state.test}
                 </p>
+
+                <form method="post" enctype="multipart/form-data" action="/">
+                    <input type="file" name="avatar" />
+                    <input type="submit" value="Upload!" />
+                </form>
             </div>
         );
     }
