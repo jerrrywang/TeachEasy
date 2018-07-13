@@ -10,6 +10,7 @@ yarn-error.log*
 
 env.sh
 package-lock.json
+.idea/
 
 # Runtime data
 pids
