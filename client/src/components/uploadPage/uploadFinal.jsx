@@ -13,16 +13,15 @@ class UploadFinal extends Component {
                 paddingRight: 60
             },
             header: {
-                marginTop: -70,
-                marginLeft: 160,
-                marginRight: 140,
+                marginTop: -10,
+                marginLeft: 100,
                 fontFamily: 'Montserrat',
                 fontSize: 70,
             },
             paragraph: {
                 marginTop: 20,
-                marginLeft: 160,
-                marginRight: 130,
+                marginLeft: 100,
+                marginRight: 50,
                 lineHeight: 2.5,
                 fontFamily: 'Cardo',
             },

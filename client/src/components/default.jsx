@@ -35,11 +35,11 @@ class Menu extends Component {
             },
             button1: {
                 marginRight: 40,
-                background: "#b1a296"
+                background: "#c2cad0"
             },
             button2: {
                 marginRight: 20,
-                background: "#b1a296"
+                background: "#c2cad0"
             }
         };
         const { classes } = this.props;

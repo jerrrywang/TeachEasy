@@ -45,7 +45,7 @@ class CardOne extends React.Component {
         },
         button: {
             marginLeft: 15,
-            marginRight: 80
+            marginRight: 80,
         }
     };
     return (
