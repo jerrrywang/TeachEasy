@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+
+  <component name="ProjectFrameBounds" extendedState="6">
+
   <component name="ChangeListManager">
     <list default="true" id="491ab8b4-7032-48cf-8b75-e5fe6e92905c" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/env.sh" afterDir="false" />
@@ -221,11 +224,16 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+
     <option name="x" value="714" />
     <option name="y" value="362" />
     <option name="width" value="1928" />
     <option name="height" value="1052" />
   </component>
+
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -642,5 +650,6 @@
         </state>
       </provider>
     </entry>
+
   </component>
 </project>
