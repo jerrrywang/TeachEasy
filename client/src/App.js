@@ -1,6 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {
+    BrowserRouter as Router,
+    Route,
+    Link,
+    Switch,
+    Redirect
+} from 'react-router-dom'
 import './App.css';
+import CardAll from './components/carouselPage/cardFull'
+import UploadFinal from './components/uploadPage/uploadFinal';
+import InsightsFull from './components/insightsPage/insightsFull'
+import Menu from './components/default';
+
+
 
 class App extends Component {
     constructor(props) {
@@ -9,32 +21,20 @@ class App extends Component {
             test: ""
         }
     };
-    componentDidMount() {
-        fetch('/ping')
-            .then(result => result.text())
-            .then(text => this.setState({test: text}))
-    }
+
     render() {
         return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h1 className="App-title">Welcome to React</h1>
-                </header>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
-                <p>
-                    {this.state.test}
-                </p>
-
-                <form method="post" enctype="multipart/form-data" action="/">
-                    <input type="file" name="avatar" />
-                    <input type="submit" value="Upload!" />
-                </form>
-            </div>
+            <Router>
+                <div>
+                    <Route path="/" component={Menu} />
+                    <Route path="/upload" component={UploadFinal} />
+                    <Route path="/history" component={CardAll} />
+                    <Route path="/insights" component={InsightsFull}/>
+                </div>
+            </Router>
         );
     }
 }
 
 export default App;
+
